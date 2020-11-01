@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Spare Car Parts</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--    Optional css-->
+    <link rel="stylesheet" href="Styles.css">
+  </head>
+  <body>
+  
+ <!--        header-->
+     <header>
+          <div class="container d-flex justify-content-between">
+            <div class="header-left">Logo</div>
+            <div class="header-right">
+               <div class="phone-number">8 800 232 32 12</div>
+               <a href="#" class="call-back"><div>Заказать обратный звонок</div></a>
+            </div>
+          </div>
+        </header>  
+  
+<!--   top-slider and its content-->
+    <div class="main-slider">
+        <img src="Images/car_parts_background2.png" alt="Car spare parts">
+        <div class="slider-black"></div>
+        <div class="slider-wrapper">
+            <div class="container">
+                <div class="main-title">Продажа кузовных запчастей</div>
+                <div class="second-title">c заводской покраской без пробега по Украине</div>
+            </div>
+            
+<!--            advantages-->
+            <div class="advantages container">
+              <div class="row justify-content-center">
+               <div class="col-md adv-item delivery">
+                 <img src="Images/car.png" alt="small car">
+                 <div>Доставка по Украине до трех дней</div>
+               </div>
+               <div class="col-md adv-item condition">
+                 <img src="Images/star.png" alt="excellent condition">
+                 <div>Новое состояние по цене б/у</div>
+               </div>
+               <div class="col-md adv-item availability">
+                 <img src="Images/list.png" alt="long list">
+                 <div>Наличие более 500 новых деталей</div>
+               </div>
+              </div> 
+            </div>
+            
+<!--            application container-->
+           <div class="app-container container">
+               <div class="row justify-content-center">
+                   <div class="col-md app">
+                       <a class="app-button" href="#">Быстрая заявка</a>
+                       <div class="app-info">Мы перезвоним Вам для уточнения деталей</div>
+                   </div>
+                   <div class="col-md app">
+                       <a class="app-button" href="#">Подробная заявка</a>
+                       <div class="app-info">Заполните подробную заявку онлайн</div>
+                   </div>
+               </div>
+           </div>
+            
+        </div>
+        
+        
+    </div>
+    
+<!--    2nd block with more advantages-->
+    <div class="second-block container">
+        <div class="row justify-content-center">
+            <div class="col advantages-2nd">
+                <img src="Images/list-icon.png" alt="list">
+                <div class="description1">Более 1000 наименований</div>
+                <div class="description2">Возможность заказа и подбора более чем по 2000 наименований деталей</div>
+            </div>
+            <div class="col advantages-2nd">
+                <img src="Images/truck-icon.png" alt="truck">
+                <div class="description1">Доставка в любой регион РФ</div>
+                <div class="description2">Мы работаем с любой транспортной компанией и осуществляем доставку в любой регион РФ</div>
+            </div>
+            <div class="col advantages-2nd">
+                <img src="Images/new-icon.png" alt="new">
+                <div class="description1">Новое состояние деталей</div>
+                <div class="description2">Наши детали не были в употреблении и имеют состояние новых</div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col advantages-2nd">
+                <img src="Images/eu-icon.png" alt="european stars">
+                <div class="description1">Европейское качество</div>
+                <div class="description2">Все наши детали привезены из Европы, что гарантирует отличное качество.</div>
+            </div>
+            <div class="col advantages-2nd">
+                <img src="Images/files-icon.png" alt="files stack">
+                <div class="description1">Работаем по договору</div>
+                <div class="description2">Все, что мы делаем - официально. Мы заключаем договор купли-продажи и предоставляем все необходимые документыю</div>
+            </div>
+        </div>
+    </div>
+    
+<!--    3rd block with form-->
+   <div class="third-block-wrapper">
+       <div class="third-block container">
+           <div class="form-title1">Подробная заявка</div>
+           <div class="form-title2">Заполните форму и получите максимально точную цену!</div>
+           <div class="form-wrapper row justify-content-center">
+               <div class="form-col col-md">
+                   <label for="mark">Марка</label>
+                   <select name="mark" id="mark">
+                       <option disabled selected>Выберите марку</option>
+                       <option value="audi">Audi</option>
+                       <option value="bmw">BMW</option>
+                       <option value="mercedes">Mercedes</option>
+                       <option value="ford">Ford</option>
+                   </select>
+                   <label for="model">Модель</label>
+                   <select name="model" id="model">
+                       <option disabled selected>Выберите модель</option>
+                       <option value="1.5">1.5</option>
+                       <option value="2">2.0</option>
+                       <option value="2.1">2.1</option>
+                       <option value="2.2">2.2</option>
+                   </select>
+                   <label for="year">Год выпуска</label>
+                   <select name="year" id="year">
+                       <option disabled selected>Выберите год</option>
+                       <option value="1995">1995</option>
+                       <option value="1997">1997</option>
+                       <option value="1999">1999</option>
+                       <option value="2015">2015</option>
+                   </select>
+               </div>
+               <div class="form-col col-md">
+                   <label for="details">Необходимые детали</label>
+                   <textarea name="details" id="details" placeholder="Введите"></textarea>
+                   <label class="username-label" for="username">Ваше имя</label>
+                   <input type="text" name="username" id="username" placeholder="Введите">
+               </div>
+               <div class="form-col col-md">
+                   <label for="userphone">Ваш телефон</label>
+                   <input type="text" name="userphone" id="userphone" placeholder="">
+                   <label for="useremail">Ваш e-mail</label>
+                   <input type="email" name="useremail" id="useremail" placeholder="Введите">
+                   <button class="sendform change-color" name="form" id="sendform">Узнать цену</button>
+               </div>
+           </div>
+       </div>
+   </div>
+   
+<!--   4rd block with brand logos-->
+   <div class="fourth-block container justify-content-center">
+      <div class="brands-title">Имеем в наличии детали на авто:</div>
+       <div class="row justify-content-center">
+           <div class="col-2 car-brands">
+               <img src="Images/audi-emblem.png" class="emblem-bw" alt="audi">
+               <img src="Images/audi-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+           <div class="col-2 car-brands">
+               <img src="Images/mercedes-emblem.png" class="emblem-bw" alt="mercedes">
+               <img src="Images/mercedes-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+           <div class="col-2 car-brands">
+               <img src="Images/bmw-emblem.png" class="emblem-bw" alt="bmw">
+               <img src="Images/bmw-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+           <div class="col-2 car-brands">
+               <img src="Images/vw-emblem.png" class="emblem-bw" alt="vw">
+               <img src="Images/vw-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+           <div class="col-2 car-brands">
+               <img src="Images/jaguar-emblem.png" class="emblem-bw" alt="jaguar">
+               <img src="Images/jaguar-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+       </div>
+       <div class="row justify-content-center">
+           <div class="col-2 car-brands">
+               <img src="Images/volvo-emblem.png" class="emblem-bw" alt="volvo">
+               <img src="Images/volvo-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+           <div class="col-2 car-brands">
+               <img src="Images/mini-emblem.png" class="emblem-bw" alt="mini">
+               <img src="Images/mini-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+           <div class="col-2 car-brands">
+               <img src="Images/lr-emblem.png" class="emblem-bw" alt="land rover">
+               <img src="Images/lr-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+           <div class="col-2 car-brands">
+               <img src="Images/honda-emblem.png" class="emblem-bw" alt="honda">
+               <img src="Images/honda-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+       </div>
+       <div class="row justify-content-center">
+           <div class="col-2 car-brands">
+               <img src="Images/jeep-emblem.png" class="emblem-bw" alt="jeep">
+               <img src="Images/jeep-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+           <div class="col-2 car-brands">
+               <img src="Images/bentley-emblem.png" class="emblem-bw" alt="bentley">
+               <img src="Images/bentley-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+           <div class="col-2 car-brands">
+               <img src="Images/porsche-emblem.png" class="emblem-bw" alt="porsche">
+               <img src="Images/porsche-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+           <div class="col-2 car-brands">
+               <img src="Images/mazda-emblem.png" class="emblem-bw" alt="mazda">
+               <img src="Images/mazda-emblem-hover.png" class="emblem-hover" alt="">
+           </div>
+       </div>
+   </div>
+   
+<!--   5th block with frame-->
+   <div class="fifth-block container">
+       <div class="frame-title">Вы можете посмотреть что происходит у нас</div>
+       <iframe src="https://www.youtube.com/embed/XPUno4Lb_MI"></iframe>
+   </div>
+   
+<!--   6th block clients reviews-->
+  <div class="sixth-block-wrapper">
+      <div class="sixth-block container ">
+          <div class="reviews-title">Клиенты о нас</div>
+          <div class="row row-cols-2 justify-content-center">
+              <div class="col review-item d-flex justify-space-between">
+                  <div class="avatar">
+                      <img src="Images/avatar.png" alt="man-face">
+                  </div>
+                  <div class="rev-content">
+                      <div class="rev-line1">Иван Иванович</div>
+                      <div class="rev-line2 change-color">Не могу найти фару для авто</div>
+                      <div class="rev-line3">Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</div>
+                  </div>
+              </div>
+              <div class="col review-item d-flex justify-space-between">
+                  <div class="avatar">
+                      <img src="Images/avatar.png" alt="man-face">
+                  </div>
+                  <div class="rev-content">
+                      <div class="rev-line1">Иван Иванович</div>
+                      <div class="rev-line2">Не могу найти фару для авто</div>
+                      <div class="rev-line3">Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</div>
+                  </div>
+              </div>
+              <div class="col review-item d-flex justify-space-between">
+                  <div class="avatar">
+                      <img src="Images/avatar.png" alt="man-face">
+                  </div>
+                  <div class="rev-content">
+                      <div class="rev-line1">Иван Иванович</div>
+                      <div class="rev-line2">Не могу найти фару для авто</div>
+                      <div class="rev-line3">Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</div>
+                  </div>
+              </div>
+              <div class="col review-item d-flex justify-space-between">
+                  <div class="avatar">
+                      <img src="Images/avatar.png" alt="man-face">
+                  </div>
+                  <div class="rev-content">
+                      <div class="rev-line1">Иван Иванович</div>
+                      <div class="rev-line2">Не могу найти фару для авто</div>
+                      <div class="rev-line3">Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+<!--  7th block with small form (consultation)-->
+  <div class="seventh-block-wrapper">
+       <div class="seventh-block container justify-content-center">
+           <div class="form-consult-title1">Подробная заявка</div>
+           <div class="form-consult-title2">Заполните форму и получите максимально точную цену!</div>
+           <div class="form-consult-wrapper row  justify-content-center">
+               <div class="form-consult col">
+                   <label for="username-consult">Ваше имя</label>
+                   <input type="text" id="username-consult"> 
+               </div>
+               <div class="form-consult col">
+                   <label for="user-surname-consult">Ваше имя</label>
+                   <input type="text" id="user-surname-consult"> 
+               </div>
+               <div class="row justify-content-center">
+                   <button class="sendform2 col-12 change-color" name="form-consult">Заказать консультацию</button>
+               </div>
+           </div>
+       </div>
+   </div>
+   
+<!--   8th block with navigation-->
+  <div class="eighth-block">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81531.10095504667!2d34.828887921065046!3d50.313449036700675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x412811685b7ee63d%3A0xcb6d729b65cbe59c!2sOchtyrka%2C%20Obw%C3%B3d%20sumski%2C%2042701!5e0!3m2!1spl!2sua!4v1597242149217!5m2!1spl!2sua" frameborder="0" style="border:0;" allowfullscreen="false" tabindex="0"></iframe>
+      <div class="contacts-wrapper">
+        <div class="contacts1 container d-flex justify-content-center">
+         <div class="contacts-block change-color">
+             <div class="line1">Контакты</div>
+             <div class="line2">г. Ахтырка, ул. Песочная 8, к. 1</div>
+             <div class="line3">8 800 418 1840</div>
+             <div class="line4"><a href="#">sitename@gemail.com</a></div> 
+         </div>
+         </div>
+      </div>
+  </div>
+  
+<!--  footer (9th block)-->
+  <footer class="container d-flex justify-content-between">
+          <div class="header-left">Logo</div>
+            <div class="header-right">
+               <div class="phone-number">8 800 232 32 12</div>
+               <a href="#" class="call-back"><div>Заказать обратный звонок</div></a>
+            </div>
+  </footer>
+  
+   
+    
+    
+    
+   
+    <!-- Optional JavaScript -->
+    <script src="Script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
